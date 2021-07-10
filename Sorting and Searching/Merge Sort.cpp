@@ -1,6 +1,3 @@
-// Problem - Given two strings, one big string and one small string. Find the smallest window
-// in the big string that contains all the characters of the small string.
-
 #include <bits/stdc++.h>
 using namespace std;
 
