@@ -43,4 +43,6 @@ int main() {
     vector<int> arr = {0,1,1,2,3,3,3,3,4,5,5,5,10};
     int key = 3;
     cout << (upper_bound(arr, key) - lower_bound(arr, key) + 1);
+     // Using STL
+    cout << upper_bound(arr.begin(), arr.end(), key) - lower_bound(arr.begin(), arr.end(), key);
 }
