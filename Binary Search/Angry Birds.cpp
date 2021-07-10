@@ -27,6 +27,7 @@ bool canPlaceBirds(int birds, int N, vector<int> nests, int sep)
 int main() {
     int B = 3;
     vector<int> nests{1,2,4,8,9};
+
     // sorting needs to be there for nests.
     sort(nests.begin(), nests.end());
     int N = nests.size();
